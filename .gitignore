@@ -1,2 +1,6 @@
 node_modules/
 .env
+
+# IBM App Connect - arquivos privados
+ibm/switchclient.json
+secureagent-logs/
