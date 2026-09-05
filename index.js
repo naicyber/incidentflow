@@ -74,4 +74,4 @@ app.get("/incidents/:id", async (req, res) => {
 
 app.listen(PORT, () => {
   console.log("IncidentFlow API running on port 3000");
-}); 
+});
