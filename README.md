@@ -46,6 +46,8 @@ Resposta HTTP
 | `high` | Salva | ⚠️ Alerta HIGH |
 | `critical` | Salva | 🚨 Alerta CRITICAL |
 
+![Severity routing](docs/images/severity-routing.png)
+
 Todas as severidades são normalizadas para letras minúsculas antes de serem persistidas.
 
 Exemplo:
