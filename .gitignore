@@ -4,3 +4,4 @@ node_modules/
 # IBM App Connect - arquivos privados
 ibm/switchclient.json
 secureagent-logs/
+.DS_Store

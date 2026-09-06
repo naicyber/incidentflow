@@ -6,6 +6,8 @@ O projeto recebe incidentes, valida e normaliza os dados, persiste as informaç�
 
 ## Arquitetura
 
+![IncidentFlow architecture](docs/images/architecture-flow.png)
+
 ```text
 Cliente
    ↓
