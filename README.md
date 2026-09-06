@@ -351,7 +351,7 @@ Os alertas são enviados para:
 #incident-alerts
 ```
 
-![alt text](image.png)
+![Slack alerts](docs/images/slack-alerts.png)
 
 
 ### HIGH
