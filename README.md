@@ -48,7 +48,7 @@ Resposta HTTP
 
 ![Severity routing](docs/images/severity-routing.png)
 
-Todas as severidades são normalizadas para letras minúsculas antes de serem persistidas.
+Todas as severidades são normalizadas para letras minúsculas antes da validação e persistência.
 
 Exemplo:
 
@@ -81,7 +81,7 @@ Exemplo de response:
 
 ```json
 {
-  "incidentId": "INC-2026-0013",
+  "incidentId": "INC-2026-0004",
   "status": "created",
   "severity": "high"
 }
@@ -92,6 +92,8 @@ Status:
 ```text
 201 Created
 ```
+
+![Successful request](docs/images/successful-request.png)
 
 ---
 
@@ -348,6 +350,9 @@ Os alertas são enviados para:
 ```text
 #incident-alerts
 ```
+
+![alt text](image.png)
+
 
 ### HIGH
 
