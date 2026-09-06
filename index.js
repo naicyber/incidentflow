@@ -1,5 +1,6 @@
 const express = require("express");
 const pool = require("./db");
+const net = require("net");
 
 const app = express();
 app.use(express.json());
@@ -29,6 +30,13 @@ if (!allowedSeverities.includes(normalizedSeverity)) {
   return res.status(400).json({
     error: "INVALID_SEVERITY",
     message: "Severity must be low, medium, high or critical"
+  });
+}
+
+if (net.isIP(ip) === 0) {
+  return res.status(400).json({
+    error: "INVALID_IP",
+    message: "IP must be a valid IPv4 or IPv6 address"
   });
 }
 
